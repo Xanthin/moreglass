@@ -1,0 +1,34 @@
+# Translation by Xanthin
+
+###init.lua###
+[glassblocks] loaded. = [glassblocks] geladen.
+
+###nodes.lua###
+red Light Glass = Leuchtendes rotes Glas
+green Light Glass = Leuchtendes grünes Glas
+blue Light Glass = Leuchtendes blaues Glas
+yellow Light Glass = Leuchtendes gelbes Glas
+orange Light Glass = Leuchtendes oranges Glas
+cyan Light Glass = Leuchtendes Cyan Glas
+violett Light Glass = Leuchtendes violettes Glas
+red Glass = rotes Glas
+green Glass = grünes Glas
+blue Glass = blaues Glas
+yellow Glass = gelbes Glas
+orange Glass = oranges Glas
+cyan Glass = cyan Glas
+violett Glass = violettes Glas
+
+###./stairsplus/*###
+%s Stairs = %streppe
+%s Slab = %sstufe
+%s Panel = %spaneel
+%s Microblock = %smikroblock
+
+%s Pane = %sscheibe
+%s Fence = %szaun
+
+###ownership.lua###
+someone = jemand
+Sorry, %s owns that spot. = Tut mir leid, %s gehoert diese Stelle.
+
