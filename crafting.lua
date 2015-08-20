@@ -54,7 +54,7 @@ minetest.register_craft({
 })
 minetest.register_craft({
 	output = "moreglass:CyanGlassSand",
-	recipe = {{"default:sand", "default:iron_ingot"},}
+	recipe = {{"default:sand", "default:steel_ingot"},}
 })
 minetest.register_craft({
 	output = "moreglass:ViolettGlassSand",
@@ -62,25 +62,47 @@ minetest.register_craft({
 })
 
 minetest.register_craft({
-	type = "cooking", output = "moreglass:RedLightGlass", recipe = "moreglass:RedGlassSand",
+	type = "cooking", output = "moreglass:RedGlass", recipe = "moreglass:RedGlassSand",
 })
 minetest.register_craft({
-	type = "cooking", output = "moreglass:GreenLightGlass", recipe = "moreglass:GreenGlassSand",
+	type = "cooking", output = "moreglass:GreenGlass", recipe = "moreglass:GreenGlassSand",
 })
 minetest.register_craft({
-	type = "cooking", output = "moreglass:BlueLightGlass", recipe = "moreglass:BlueGlassSand",
+	type = "cooking", output = "moreglass:BlueGlass", recipe = "moreglass:BlueGlassSand",
 })
 minetest.register_craft({
-	type = "cooking", output = "moreglass:YellowLightGlass", recipe = "moreglass:YellowGlassSand",
+	type = "cooking", output = "moreglass:YellowGlass", recipe = "moreglass:YellowGlassSand",
 })
 minetest.register_craft({
-	type = "cooking", output = "moreglass:OrangeLightGlass", recipe = "moreglass:OrangeGlassSand",
+	type = "cooking", output = "moreglass:OrangeGlass", recipe = "moreglass:OrangeGlassSand",
 })
 minetest.register_craft({
-	type = "cooking", output = "moreglass:CyanLightGlass", recipe = "moreglass:CyanGlassSand",
+	type = "cooking", output = "moreglass:CyanGlass", recipe = "moreglass:CyanGlassSand",
 })
 minetest.register_craft({
 	type = "cooking", output = "moreglass:ViolettGlass", recipe = "moreglass:ViolettGlassSand",
 })
 
+
+minetest.register_craft({
+	type = "cooking", output = "moreglass:RedLightGlass", recipe = "moreglass:RedLightGlassSand",
+})
+minetest.register_craft({
+	type = "cooking", output = "moreglass:GreenLightGlass", recipe = "moreglass:GreenLightGlassSand",
+})
+minetest.register_craft({
+	type = "cooking", output = "moreglass:BlueLightGlass", recipe = "moreglass:BlueLightGlassSand",
+})
+minetest.register_craft({
+	type = "cooking", output = "moreglass:YellowLightGlass", recipe = "moreglass:YellowLightGlassSand",
+})
+minetest.register_craft({
+	type = "cooking", output = "moreglass:OrangeLightGlass", recipe = "moreglass:OrangeLightGlassSand",
+})
+minetest.register_craft({
+	type = "cooking", output = "moreglass:CyanLightGlass", recipe = "moreglass:CyanLightGlassSand",
+})
+minetest.register_craft({
+	type = "cooking", output = "moreglass:ViolettLightGlass", recipe = "moreglass:ViolettLightGlassSand",
+})
 
