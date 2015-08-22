@@ -1,6 +1,5 @@
 --[[
 More Glass: crafting recipes
-
 --]]
 
 minetest.register_craft({
@@ -105,4 +104,3 @@ minetest.register_craft({
 minetest.register_craft({
 	type = "cooking", output = "moreglass:ViolettLightGlass", recipe = "moreglass:ViolettLightGlassSand",
 })
-
