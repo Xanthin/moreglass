@@ -24,7 +24,7 @@ minetest.register_craft({
 })
 minetest.register_craft({
 	output = "moreglass:CyanLightGlassSand",
-	recipe = {{"default:sand", "default:iron_ingot", "default:coal_lump"},}
+	recipe = {{"default:sand", "default:steel_ingot", "default:coal_lump"},}
 })
 minetest.register_craft({
 	output = "moreglass:ViolettLightGlassSand",
@@ -45,7 +45,7 @@ minetest.register_craft({
 })
 minetest.register_craft({
 	output = "moreglass:YellowGlassSand",
-	recipe = {{"default:sand", "default:silver_lump"},}
+	recipe = {{"default:sand", "moreores:silver_lump"},}
 })
 minetest.register_craft({
 	output = "moreglass:OrangeGlassSand",
